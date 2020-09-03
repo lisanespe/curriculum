@@ -1,0 +1,82 @@
+$f1_titulo:30px;
+$in1_titulo:20px;
+$f2_titulo:15px;
+$in2_titulo:60px;
+$mar_titulo:20px;
+@keyframes aparecer {
+
+  0% { opacity: 0;
+  }
+  50% { opacity: 1;
+  }
+  100% { opacity: 3;
+  }}
+
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url("images/bg.jpg");
+  z-index: -1; }
+
+
+
+.presentacion {
+.presentacion__texto {
+  text-align: justify;
+  border: solid 2px;
+  padding: 16px 16px;
+  margin-left: 400px;
+  margin-right: 400px;
+  height: auto; 
+  animation-duration: 10s;
+  animation-name: aparecer;
+
+}
+
+
+
+
+} 
+
+.encabezado {
+  .foto__encabezado {
+    
+    width: 40%;
+    
+      
+   }
+
+  .frame__encabezado{
+    background-image: url("images/frame.jpg");
+    background-repeat: no-repeat;
+   }
+
+   .encabezado__titulo{
+    text-align:left;
+
+
+   }
+
+
+}
+
+.intermedio {
+
+  .intermedio__titulo__principal {
+  
+    font-size:$f1_titulo;
+    text-indent:$in1_titulo;
+    margin-top: $mar_titulo;
+    margin-bottom: $mar_titulo;
+ }
+ .intermedio__titulo__secundario{
+
+  font-size:$f2_titulo;
+  text-indent:$in2_titulo;
+  margin-top: $mar_titulo;
+  margin-bottom: $mar_titulo;
+
+ }
+
+
+}
