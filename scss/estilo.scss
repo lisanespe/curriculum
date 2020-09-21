@@ -3,14 +3,6 @@ $in1_titulo:20px;
 $f2_titulo:15px;
 $in2_titulo:60px;
 $mar_titulo:20px;
-@keyframes aparecer {
-
-  0% { opacity: 0;
-  }
-  50% { opacity: 1;
-  }
-  100% { opacity: 3;
-  }}
 
 
 body {
@@ -28,20 +20,13 @@ body {
   margin-left: 400px;
   margin-right: 400px;
   height: auto; 
-  animation-duration: 10s;
-  animation-name: aparecer;
+}}
 
-}
-
-
-
-
-} 
 
 .encabezado {
   .foto__encabezado {
     
-    width: 40%;
+    width: 50%;
     
       
    }
@@ -53,12 +38,8 @@ body {
 
    .encabezado__titulo{
     text-align:left;
+   }}
 
-
-   }
-
-
-}
 
 .intermedio {
 
@@ -76,7 +57,4 @@ body {
   margin-top: $mar_titulo;
   margin-bottom: $mar_titulo;
 
- }
-
-
-}
+ }}
